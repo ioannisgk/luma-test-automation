@@ -53,7 +53,7 @@ Scenario Outline: A user should not be able to login with invalid data
 	When user enters a "<email>" email to the login form
 	And user enters a "<password>" password to the login form
 	And user clicks on Sign In button
-	Then the Invalid login or password email should be displayed
+	Then the Invalid login or password message should be displayed
 	
 	
 	Examples: 

@@ -36,7 +36,7 @@ public class LoginSteps extends DriverFactory {
 		customerLoginPage.confirmEmailInformation(email);
 	}
 	
-	@Then("^the Invalid login or password email should be displayed$")
+	@Then("^the Invalid login or password message should be displayed$")
 	public void the_Invalid_login_or_password_email_should_be_displayed() throws Throwable {
 		customerLoginPage.confirmInvalidLoginMessages();
 	}
